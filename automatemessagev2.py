@@ -13,5 +13,5 @@ def send_message(phone_number, message):
 if __name__ == '__main__':
 	lyrics = get_lyrics('chickfilye.txt')
 	for each_lyric in lyrics:
-		send_message(2403089035, each_lyric)
+		send_message(1234567890, each_lyric)
 			
